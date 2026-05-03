@@ -1,0 +1,78 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 50px;
+  background: #fff;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e53935;
+}
+
+/* Right Section */
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+/* Links container */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* 🔥 UPDATED LINKS */
+.link {
+  text-decoration: none;
+  font-size: 88px; /* 👈 increased */
+  color: #333;
+  font-weight: 600;
+  padding: 6px 14px; /* 👈 spacing for button feel */
+  border-radius: 25px; /* 👈 curve look */
+  transition: all 0.3s ease;
+}
+
+
+
+/* Primary Button */
+.btn-primary {
+  background: #e53935;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+
+
+/* Outline Button */
+.btn-outline {
+  border: 2px solid #e53935;
+  color: #e53935;
+  padding: 7px 16px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+
+/* Logout Button */
+.btn-logout {
+  background: transparent;
+  border: 2px solid #e53935;
+  color: #e53935;
+  padding: 6px 14px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}

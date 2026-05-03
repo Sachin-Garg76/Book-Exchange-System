@@ -1,0 +1,63 @@
+.addbook-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f4f6;
+}
+
+.addbook-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.addbook-card h2 {
+  margin-bottom: 20px;
+}
+
+.addbook-card h2 span {
+  color: #8b0000;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  width: 140px;   /* 👈 fixed width for alignment */
+  font-size: 14px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-group textarea {
+  height: 70px;
+  resize: none;
+}
+
+.addbook-card button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background: #d32f2f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.addbook-card button:hover {
+  background: #4a6fdc;
+}
