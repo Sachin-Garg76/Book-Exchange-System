@@ -14,28 +14,6 @@ Frontend: React, HTML, CSS, JavaScript
 Backend: Node.js, Express
 Database: MongoDB
 
-##📁 Project Structure
-book-exchange-system/
-│
-├── frontend/        # React frontend
-│   ├── src/
-│   └── public/
-│
-├── backend/         # Node.js backend
-│   ├── routes/
-│   ├── models/
-│   └── controllers/
-│
-└── README.md
-
-⚙️ Setup
-1. Clone the repo
-git clone https://github.com/your-username/book-exchange-system.gitcd book-exchange-system
-2. Backend
-cd backendnpm installnpm start
-3. Frontend
-cd frontendnpm installnpm start
-
 📌 Usage
 Create an account / login
 Upload your books
