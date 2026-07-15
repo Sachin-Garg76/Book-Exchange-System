@@ -22,7 +22,7 @@ const BookReq = () => {
       const res = await fetch("http://localhost:5000/api/exchange/received", {
         headers: {
           "Content-Type": "application/json",
-          "Authorization": `Bearer ${token}` // ✅ IMPORTANT
+          "Authorization": `Bearer ${token}`
         }
       });
 
@@ -32,7 +32,7 @@ const BookReq = () => {
         setRequests(data);
       } else {
         console.error("Error:", data);
-        setRequests([]); // ✅ prevent crash
+        setRequests([]); 
       }
     } catch (err) {
       console.error(err);
@@ -49,7 +49,7 @@ const BookReq = () => {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": `Bearer ${token}` // ✅ SAME FIX
+          "Authorization": `Bearer ${token}`
         },
         body: JSON.stringify({ status })
       });
