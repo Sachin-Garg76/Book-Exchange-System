@@ -1,6 +1,6 @@
 📚 Book Exchange System
 
-A simple and useful full-stack web application where users can share, request, like, and save books.
+A simple and useful full-stack web application where users can share, request, like, and save books or exchnage with other people.
 
 🚀 Features
 🔐 User Signup & Login
