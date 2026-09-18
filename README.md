@@ -24,7 +24,3 @@ Like ❤️ or save 📌 books
 🎯 Purpose
 To make book sharing easy and promote learning by connecting users.
 
-📬 Contact
-Sachin 
-https://www.linkedin.com/in/sachin-garg-37aa74252/ 
-s32314800@gmail.com
